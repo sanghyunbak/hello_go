@@ -1,1 +1,5 @@
-module "github.com/sanghyunbak/hello_go"
+module github.com/sanghyunbak/hello_go
+
+go 1.14
+
+require github.com/gorilla/mux v1.7.4
